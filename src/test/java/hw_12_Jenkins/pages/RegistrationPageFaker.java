@@ -89,7 +89,7 @@ public class RegistrationPageFaker {
         return this;
 
     }
-    @Step("Вводим BirthData {day, month, year}")
+    @Step("Вводим BirthData {day} {month} {year}")
     public RegistrationPageFaker setBirthData(String day, String month, String year) {
         dateOfBirthInput.click();
         calendarComponent.setDate(day, month, year);
