@@ -9,7 +9,7 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 
-
+@DisplayName("Регистрация студента")
 @Tag("simple")
 public class RegistrationWithPageObjectsFakerTests extends TestBaseFaker {
     RegistrationPageFaker registrationPage = new RegistrationPageFaker();
