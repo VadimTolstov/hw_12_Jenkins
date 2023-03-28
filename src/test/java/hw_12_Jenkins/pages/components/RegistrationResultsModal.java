@@ -1,0 +1,21 @@
+package hw_12_Jenkins.pages.components;
+
+import static com.codeborne.selenide.Condition.appear;
+import static com.codeborne.selenide.Condition.text;
+import static com.codeborne.selenide.Selectors.byText;
+import static com.codeborne.selenide.Selenide.$;
+
+public class RegistrationResultsModal {
+
+    public RegistrationResultsModal verifyModalAppears() {
+        $(".modal-dialog").should(appear);
+        $(".modal-content").shouldHave(text("Thanks for submitting the form"));
+        return this;
+    }
+
+    public RegistrationResultsModal verifyResult(String key, String value) {
+        $(".table-responsive").$(byText(key)).parent().shouldHave(text(value));
+        return this;
+    }
+
+}
