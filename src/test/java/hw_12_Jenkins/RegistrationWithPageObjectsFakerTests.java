@@ -5,8 +5,9 @@ import hw_12_Jenkins.pages.RegistrationPageFaker;
 import hw_12_Jenkins.pages.components.RegistrationResultsModal;
 import hw_12_Jenkins.utils.DataGenerator;
 import hw_12_Jenkins.utils.StudentData;
+import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
-
+@Tag("simple")
 public class RegistrationWithPageObjectsFakerTests extends TestBaseFaker {
     RegistrationPageFaker registrationPage = new RegistrationPageFaker();
     StudentData studentData = DataGenerator.getRandomStudent();
