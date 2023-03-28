@@ -4,7 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ed92b47e-0f13-403d-b113-4b561aa65003" name="Changes" comment="v 0.1" />
+    <list default="true" id="ed92b47e-0f13-403d-b113-4b561aa65003" name="Changes" comment="v 0.1">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/hw_12_Jenkins/RegistrationWithPageObjectsFakerTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/hw_12_Jenkins/RegistrationWithPageObjectsFakerTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/hw_12_Jenkins/TestBaseFaker.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/hw_12_Jenkins/TestBaseFaker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/hw_12_Jenkins.RegistrationWithPageObjectsFakerTests.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/hw_12_Jenkins.RegistrationWithPageObjectsFakerTests.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/hw_12_Jenkins.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/hw_12_Jenkins.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-hw_12_Jenkins.RegistrationWithPageObjectsFakerTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-hw_12_Jenkins.RegistrationWithPageObjectsFakerTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hw_12_Jenkins/TestBaseFaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hw_12_Jenkins/TestBaseFaker.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -75,7 +89,7 @@
       <recent name="D:\program\IntelliJIDEA\Proect\hw_12_Jenkins\src\test\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.hw_12_Jenkins [allureServe]">
+  <component name="RunManager" selected="Gradle.RegistrationWithPageObjectsFakerTests">
     <configuration name="RegistrationWithFakerTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -168,8 +182,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.hw_12_Jenkins [allureServe]" />
         <item itemvalue="Gradle.RegistrationWithPageObjectsFakerTests" />
+        <item itemvalue="Gradle.hw_12_Jenkins [allureServe]" />
         <item itemvalue="Gradle.RegistrationWithFakerTests" />
         <item itemvalue="Gradle.RegistrationWithPageObjectsTests" />
       </list>
@@ -205,7 +219,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680020074121</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="v 0.1">
+      <created>1680020591474</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1680020591474</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
