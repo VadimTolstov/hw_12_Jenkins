@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="hw_12_Jenkins.RegistrationWithPageObjectsFakerTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-03-28T17:07:36" hostname="DESKTOP-841OQ4U" time="20.022">
+<testsuite name="hw_12_Jenkins.RegistrationWithPageObjectsFakerTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-03-28T17:18:05" hostname="DESKTOP-841OQ4U" time="20.389">
   <properties/>
-  <testcase name="fillFormTest()" classname="hw_12_Jenkins.RegistrationWithPageObjectsFakerTests" time="20.022"/>
+  <testcase name="fillFormTest()" classname="hw_12_Jenkins.RegistrationWithPageObjectsFakerTests" time="20.389"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[[Test worker] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
 [Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - BrowserName=chrome Version=100.0.4896.60 Platform=LINUX
 [Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenide v. 6.12.3
 [Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenium WebDriver v. 4.8.1 build revision: 8ebccac989
-[Test worker] INFO com.codeborne.selenide.drivercommands.CreateDriverCommand - Created webdriver in thread 1: RemoteWebDriver -> RemoteWebDriver: chrome on LINUX (f33694541b9e7961f141f5ac2c1a5165)
-[Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Register WebDriverInstance[config=StaticConfig,webDriver=RemoteWebDriver: chrome on LINUX (f33694541b9e7961f141f5ac2c1a5165),proxy=null,downloadsFolder=null] in 1 [size=1]
+[Test worker] INFO com.codeborne.selenide.drivercommands.CreateDriverCommand - Created webdriver in thread 1: RemoteWebDriver -> RemoteWebDriver: chrome on LINUX (ab869aac81694726584567c533f5ee6a)
+[Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Register WebDriverInstance[config=StaticConfig,webDriver=RemoteWebDriver: chrome on LINUX (ab869aac81694726584567c533f5ee6a),proxy=null,downloadsFolder=null] in 1 [size=1]
 [Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Add shutdown hook in 1 [size=1]
 ]]></system-err>
 </testsuite>
