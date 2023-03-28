@@ -8,14 +8,17 @@ import hw_12_Jenkins.utils.StudentData;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
+
+
 @Tag("simple")
-@DisplayName("Заполнение формы регистрации данныеми")
 public class RegistrationWithPageObjectsFakerTests extends TestBaseFaker {
     RegistrationPageFaker registrationPage = new RegistrationPageFaker();
     StudentData studentData = DataGenerator.getRandomStudent();
     RegistrationResultsModal registrationResultsModal = new RegistrationResultsModal();
 
     @Test
+    @Regress // что нужно прописать в build.gradle и настройках jenkinsa, что бы запусить в jenkins тесты с таким Tag?
+    @DisplayName("Регистрация студента")
     void fillFormTest() {
 
         registrationPage.openPage()
