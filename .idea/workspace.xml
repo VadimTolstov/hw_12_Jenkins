@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ed92b47e-0f13-403d-b113-4b561aa65003" name="Changes" comment="v 1.0">
-      <change beforePath="$PROJECT_DIR$/src/test/java/hw_12_Jenkins/RegistrationWithPageObjectsFakerTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hw_12_Jenkins/RegistrationWithPageObjectsFakerTests.java" afterDir="false" />
-    </list>
+    <list default="true" id="ed92b47e-0f13-403d-b113-4b561aa65003" name="Changes" comment="v 1.0" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,6 +50,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="AnnotationType" />
       </list>
     </option>
   </component>
@@ -79,6 +78,9 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="hw_12_Jenkins" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\program\IntelliJIDEA\Proect\hw_12_Jenkins\src\test\resources" />
       <recent name="D:\program\IntelliJIDEA\Proect\hw_12_Jenkins\src\test\java" />
@@ -270,7 +272,21 @@
       <option name="project" value="LOCAL" />
       <updated>1680026760398</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="v 1.0">
+      <created>1680027224280</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1680027224280</updated>
+    </task>
+    <task id="LOCAL-00013" summary="v 1.0">
+      <created>1680027338726</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1680027338726</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
