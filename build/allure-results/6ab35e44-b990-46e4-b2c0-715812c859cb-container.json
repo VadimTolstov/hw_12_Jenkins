@@ -1,0 +1,1 @@
+{"uuid":"6ab35e44-b990-46e4-b2c0-715812c859cb","name":"RegistrationWithFakerTests","children":["527b1d90-654f-4970-afd6-59c3afb385dd"],"befores":[{"name":"beforeAll","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1680017323791,"stop":1680017323803}],"afters":[],"start":1680017323735,"stop":1680017329823}

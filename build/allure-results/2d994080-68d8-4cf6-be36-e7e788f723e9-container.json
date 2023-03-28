@@ -1,0 +1,1 @@
+{"uuid":"2d994080-68d8-4cf6-be36-e7e788f723e9","name":"RegistrationWithPageObjectsTests","children":["8df38e48-488c-4607-bb8c-14e693b1ad18"],"befores":[{"name":"beforeAll","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1680017168847,"stop":1680017168860}],"afters":[],"start":1680017168803,"stop":1680017174878}
