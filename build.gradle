@@ -2,16 +2,18 @@ plugins {
     id 'java-library'
     id('io.qameta.allure') version '2.11.2'
 }
+def allureVersion = "2.21.0",
+    slf4jVersion = "2.0.7"
 
 allure {
     report { //секция репорта
-        version("2.21.0")
+        version(allureVersion)
     }
     adapter { //отвечает за появление папочки build/allure-results
         aspectjWeaver.set(true)//Обработка аннотации @Step
         frameworks {
             junit5 { //название фреймворка
-                adapterVersion.set("2.21.0")//версия интеграции фреймворка и Allure
+                adapterVersion.set(allureVersion)//версия интеграции фреймворка и Allure
             }
         }
     }
@@ -20,8 +22,8 @@ allure {
 repositories {
     mavenCentral()
 
-
 }
+
 
 compileJava {
     options.encoding = 'UTF-8'
@@ -35,7 +37,7 @@ dependencies {
     testImplementation(
             'com.codeborne:selenide:6.12.3',
             'org.junit.jupiter:junit-jupiter:5.9.2',
-            'org.slf4j:slf4j-simple:2.0.6',
+            "org.slf4j:slf4j-simple:$slf4jVersion",
             'com.github.javafaker:javafaker:1.0.2',
             'com.codeborne:pdf-test:1.5.0',
             'com.codeborne:xls-test:1.4.3',
@@ -43,7 +45,8 @@ dependencies {
             'com.google.code.gson:gson:2.10.1',
             'com.fasterxml.jackson.core:jackson-databind:2.13.1',
             'com.fasterxml.jackson.core:jackson-core:2.13.1',
-            'io.qameta.allure:allure-selenide:2.21.0'
+            'org.aeonbits.owner:owner:1.0.12',
+            "io.qameta.allure:allure-selenide:$allureVersion"
 
     )
     // testImplementation 'org.testng:testng:7.1.0'
@@ -53,13 +56,22 @@ tasks.withType(JavaCompile) {
     options.encoding = 'UTF-8'
 }
 
+tasks.withType(Test) {
+    useJUnitPlatform()
+
+
+    testLogging {
+        lifecycle {
+            events "started", "skipped", "failed", "standard_error", "standard_out"
+            exceptionFormat "short"
+        }
+    }
+}
 
 test {
 
     //Язык, на котором запуститься сайт
     // systemProperty "chromeoptions.prefs","int.accept_languages=en"
-
-    useJUnitPlatform()
     systemProperties(System.getProperties())
 }
 
@@ -74,5 +86,7 @@ task remote_test(type: Test) {
         includeTags("remote")
     }
 }
+
+
 //sourceCompatibility = JavaVersion.VERSION_15
 //targetCompatibility = JavaVersion.VERSION_15
